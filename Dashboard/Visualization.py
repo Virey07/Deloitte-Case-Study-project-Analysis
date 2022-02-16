@@ -403,7 +403,7 @@ class Plotly_charts:
 
             # to make bg transperent
             fig3.update_layout(
-                plot_bgcolor='rgba(0, 0, 0, 0)',
+                plot_bgcolor='rgba(0, 0, 0, 0)'
                 # paper_bgcolor= 'rgba(0, 0, 0, 0)’
             )
 
