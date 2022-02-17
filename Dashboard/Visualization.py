@@ -377,7 +377,6 @@ class Plotly_charts:
         """
         try:
             fig3 = go.Figure()
-
             country_list = list(self.data.columns)
             # print(country_list)
 
@@ -403,7 +402,7 @@ class Plotly_charts:
                 title_font_size=25,
                 xaxis_title="Years",
                 yaxis_title="Rate of change"
-            ),
+            )
 
             # to make bg transperent
             fig3.update_layout(
@@ -412,12 +411,11 @@ class Plotly_charts:
             )
 
             fig3.update_yaxes(showgrid=False, gridwidth=1, gridcolor='black')
-        except:
-            logger.info("[Error E5 : There is an error in cagr_grouped_countries !]")
-
-        else:
+            
             logger.info("[Process 5 : cagr_grouped_countries has runned successfully !]")
             return fig3
+        except:
+            logger.info("[Error E5 : There is an error in cagr_grouped_countries !]")
         
 
 
