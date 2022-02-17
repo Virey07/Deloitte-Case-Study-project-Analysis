@@ -163,8 +163,9 @@ class Plotly_charts:
         except:
             logger.info("[Error V1 : There is an error in YoY_dropdown_chart !]")
         else:
+            logger.info("[Process 1 : YoY_dropdown_chart has runned sucessfully !]")
             return fig3
-        logger.info("[Process 1 : YoY_dropdown_chart has runned sucessfully !]")
+        
 
 
     def YoY_mutipleselect_chart(self):
@@ -247,8 +248,9 @@ class Plotly_charts:
         except:
             logger.info("[Process 2 : YoY_mutipleselect_chart has runned successfully !]")
         else:
+            logger.info("[Process 2 : YoY_mutipleselect_chart has runned successfully !]")
             return fig3
-        logger.info("[Process 2 : YoY_mutipleselect_chart has runned successfully !]")
+        
 
     def cagr_dropdown_chart(self):
         """
@@ -316,8 +318,9 @@ class Plotly_charts:
         except:
             logger.info("[Error V3 : There is an error in cagr_dropdown_chart !]")
         else:
+            logger.info("[Process 3 : cagr_dropdown_chart has runned successfully !]")
             return fig
-        logger.info("[Process 3 : cagr_dropdown_chart has runned successfully !]")
+        
 
     def cagr_all_years_chart(self):
         """
@@ -356,8 +359,9 @@ class Plotly_charts:
             logger.info("[Error V4 : There is an error in cagr_all_years_chart !]")
 
         else:
+            logger.info("[Process 4 : cagr_all_years_chart has runned successfully !]")
             return fig
-        logger.info("[Process 4 : cagr_all_years_chart has runned successfully !]")
+        
 
     def cagr_grouped_countries(self):
         """
@@ -412,8 +416,9 @@ class Plotly_charts:
             logger.info("[Error E5 : There is an error in cagr_grouped_countries !]")
 
         else:
+            logger.info("[Process 5 : cagr_grouped_countries has runned successfully !]")
             return fig3
-        logger.info("[Process 5 : cagr_grouped_countries has runned successfully !]")
+        
 
 
     def Plot_monthly_chart(self):
@@ -454,8 +459,9 @@ class Plotly_charts:
             logger.info("[Error E6 : There is an error in Plotly_monthly_chart !]")
 
         else:
+            logger.info("[Process 6 : Plotly_monthly_chart has runned successfully !]")
             return fig
-        logger.info("[Process 6 : Plotly_monthly_chart has runned successfully !]")
+        
 
 
 
